@@ -8,10 +8,18 @@
     </style>
 
     <style name="Theme.VeryFullScreen.Splash" parent="Theme.VeryFullScreen">
-        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@color/purple_500</item>
         <item name="colorPrimary">@android:color/white</item>
         <item name="colorPrimaryVariant">@android:color/white</item>
         <item name="colorOnPrimary">@android:color/white</item>
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
+
+    <style name="Theme.VeryFullScreen.Splash2" parent="Theme.VeryFullScreen">
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryVariant">@android:color/white</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="android:fitsSystemWindows">false</item>
     </style>
 </resources>
