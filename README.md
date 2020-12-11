@@ -1,8 +1,7 @@
 # VeryFullScreen
- 
-<p align="center">
-  <img src="https://github.com/gzeinnumer/VeryFullScreen/blob/master/preview/SplashScreenActivity.jpg" width="200"/>
-</p>
+
+|<img src="https://github.com/gzeinnumer/VeryFullScreen/blob/master/preview/SplashScreenActivity.jpg" width="200"/>|
+|---|
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -61,9 +60,8 @@ public class SplashScreenActivity extends AppCompatActivity {
 
 ---
 
-<p align="center">
-  <img src="https://github.com/gzeinnumer/VeryFullScreen/blob/master/preview/SplashScreenActivity2.jpg" width="200"/>
-</p>
+|<img src="https://github.com/gzeinnumer/VeryFullScreen/blob/master/preview/SplashScreenActivity2.jpg" width="200"/>|
+|---|
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
