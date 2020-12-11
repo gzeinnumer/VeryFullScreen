@@ -1,7 +1,8 @@
 # VeryFullScreen
-
-|<img src="https://github.com/gzeinnumer/VeryFullScreen/blob/master/preview/SplashScreenActivity.jpg" width="200"/>|
-|---|
+<h1 align="center">
+    |<img src="https://github.com/gzeinnumer/VeryFullScreen/blob/master/preview/SplashScreenActivity.jpg" width="200"/>|
+    |---|
+</h1>
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
