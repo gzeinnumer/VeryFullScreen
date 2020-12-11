@@ -17,7 +17,6 @@
 </manifest>
 ```
 ```xml
-
     <!-- Base application theme. -->
     <style name="Theme.VeryFullScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
     </style>
@@ -77,7 +76,6 @@ public class SplashScreenActivity extends AppCompatActivity {
 </manifest>
 ```
 ```xml
-
     <!-- Base application theme. -->
     <style name="Theme.VeryFullScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
     </style>
