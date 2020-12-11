@@ -1,7 +1,7 @@
 # VeryFullScreen
  
 <p align="center">
-  <img src="https://github.com/gzeinnumer/VeryFullScreen/blob/master/preview/SplashScreenActivity.jpg" width="400"/>
+  <img src="https://github.com/gzeinnumer/VeryFullScreen/blob/master/preview/SplashScreenActivity.jpg" width="200"/>
 </p>
 
 ```xml
@@ -53,6 +53,62 @@ public class SplashScreenActivity extends AppCompatActivity {
             //enable this tho maker icon status bar become black
             decore+= View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
         }
+
+        getWindow().getDecorView().setSystemUiVisibility(decore);
+    }
+}
+```
+
+---
+
+<p align="center">
+  <img src="https://github.com/gzeinnumer/VeryFullScreen/blob/master/preview/SplashScreenActivity2.jpg" width="200"/>
+</p>
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+
+    <application>
+        <activity
+            android:name=".SplashScreenActivity2"
+            android:theme="@style/Theme.VeryFullScreen.Splash2">
+        </activity>
+    </application>
+
+</manifest>
+```
+```xml
+
+    <!-- Base application theme. -->
+    <style name="Theme.VeryFullScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+    </style>
+
+    <style name="Theme.VeryFullScreen.Splash2" parent="Theme.VeryFullScreen">
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryVariant">@android:color/white</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
+```
+```java
+public class SplashScreenActivity2 extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setFullScreen();
+        setContentView(R.layout.activity_splash_screen2);
+    }
+
+    private void setFullScreen() {
+        int decore = View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+                | View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                // Hide the nav bar and status bar
+                | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION;
 
         getWindow().getDecorView().setSystemUiVisibility(decore);
     }
