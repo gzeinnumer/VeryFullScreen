@@ -21,7 +21,7 @@
     <style name="Theme.VeryFullScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
     </style>
 
-    <style name="Theme.VeryFullScreen.Splash" parent="Theme.VeryFullScreen">
+    <style name="Theme.VeryFullScreen.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:statusBarColor">@color/purple_500</item>
         <item name="colorPrimary">@android:color/white</item>
         <item name="colorPrimaryVariant">@android:color/white</item>
@@ -80,7 +80,7 @@ public class SplashScreenActivity extends AppCompatActivity {
     <style name="Theme.VeryFullScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
     </style>
 
-    <style name="Theme.VeryFullScreen.Splash2" parent="Theme.VeryFullScreen">
+    <style name="Theme.VeryFullScreen.Splash2" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:statusBarColor">@android:color/white</item>
         <item name="colorPrimary">@android:color/white</item>
         <item name="colorPrimaryVariant">@android:color/white</item>
