@@ -26,6 +26,9 @@
         <item name="colorPrimary">@android:color/white</item>
         <item name="colorPrimaryVariant">@android:color/white</item>
         <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@android:color/white</item>
+        <item name="colorSecondaryVariant">@android:color/white</item>
+        <item name="colorOnSecondary">@android:color/white</item>
         <item name="android:fitsSystemWindows">false</item>
     </style>
 ```
@@ -85,6 +88,9 @@ public class SplashScreenActivity extends AppCompatActivity {
         <item name="colorPrimary">@android:color/white</item>
         <item name="colorPrimaryVariant">@android:color/white</item>
         <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@android:color/white</item>
+        <item name="colorSecondaryVariant">@android:color/white</item>
+        <item name="colorOnSecondary">@android:color/white</item>
         <item name="android:fitsSystemWindows">false</item>
     </style>
 ```
